@@ -13,13 +13,13 @@ int compare_temperatures(double temp_1, double temp_2){
 }
 
 int main(){
-    printf("\n - - Inicio de pruebas F->c  - - \n");
+    printf("\n - - Inicio de pruebas C->F  - - \n");
 
     assert(compare_temperatures(farenheit(70),158)==1);
     assert(compare_temperatures(farenheit(50),122)==1);
     assert(compare_temperatures(farenheit(40),104)==1);
 
-    printf("\n - - Inicio de pruebas C->F  - - \n");
+    printf("\n - - Inicio de pruebas F->C  - - \n");
     assert(compare_temperatures(celsius(158),70)==1); 
     assert(compare_temperatures(celsius(122),50)==1);
     assert(compare_temperatures(celsius(104),40)==1);
